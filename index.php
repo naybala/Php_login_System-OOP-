@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Dark And White</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="UI/asset/main-ui/styles.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+                <img src="Ui/image/nike-logo.png" class="logo" alt="logo" />
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!-- links -->
+            <ul class="links">
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <a href="Ui/asset/login-ui/login.php">Login</a>
+                </li>
+                <li>
+                    <a href="Ui/asset/signUp-ui/signUp.php">Sign-Up</a>
+                </li>
+            </ul>
+            <!-- social media -->
+            <ul class=" social-icons">
+                <li class="">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                </li>
+                <li class="">
+                    <div class="theme-toggler">
+                        <span>light</span>
+                        <span class="toggler"></span>
+                        <span>dark</span>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- javascript -->
+    <script src="UI/asset/main-ui/app.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+</script>
+
+</html>
