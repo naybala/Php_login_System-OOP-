@@ -17,10 +17,7 @@ include "operationController.class.php";
         header("location: ../login-ui/login.php");
     }else{
         echo '<div class="alert alert-danger"> Failed....Operation </div>';
-        // header("location: Ui/asset/signUp-ui/signUp.php");
-        
-        
-    }
+     }
 
 
     //Route To The Back Page
