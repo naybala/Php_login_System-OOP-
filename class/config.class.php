@@ -2,7 +2,7 @@
 class Database {
         public $connection;
            public function db_connect(){
-             $this->connection = mysqli_connect('localhost', 'root','','login_oop');
+             $this->connection = mysqli_connect('localhost', 'root','','login_oop');//db _name should be login_oop
              if(mysqli_connect_error()){
               die(" Connect Failed ");
             }
