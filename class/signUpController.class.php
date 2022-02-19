@@ -1,7 +1,7 @@
 <?php
-include "operation.class.php";
+include "signUp.class.php";
 
-class OperationController extends Operation{
+class SignUpController extends SignUp{
     
     private $name,
             $email,

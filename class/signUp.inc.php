@@ -1,5 +1,5 @@
 <?php
-include "operationController.class.php";
+include "signUpController.class.php";
   if(isset($_POST['btnSignUp'])){
 
     // Get The Data Form The Input
@@ -10,7 +10,7 @@ include "operationController.class.php";
     
   
     
-    $obj = new OperationController($name, $email, $password, $confirmPassword);
+    $obj = new SignUpController($name, $email, $password, $confirmPassword);
     // echo $obj->$this->name , $obj->$this->email;
     $obj->signupUser();
     if($obj != " "){

@@ -1,6 +1,6 @@
 <?php
 include "config.class.php";
-class Operation extends DataBase{
+class SignUp extends DataBase{
 
  
 
