@@ -48,6 +48,10 @@ class SignUpController extends SignUp{
             $result = false;
         }
         return $result;
+
+
+        ///admin@gmail.com
+        ///12345678
     }
 
     //User Password Invaild Check
