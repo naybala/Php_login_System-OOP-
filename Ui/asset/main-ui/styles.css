@@ -159,7 +159,6 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -299,5 +298,11 @@ nav {
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
+  }
+}
+
+@media (min-width: 768px) {
+  .news-input {
+      width: 50%;
   }
 }
