@@ -20,32 +20,35 @@
 </head>
 
 <body id="home">
-    <!--Nav Section Start -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <nav class="navbar navbar-expand-lg py-2 fixed-top bg-dark ">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <h1 class="text-light">Hello</h1>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a href="#home" class="nav-link text-light">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About Us</a>
+                        <a href="#about" class="nav-link text-light">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact Us</a>
+                        <a href="#contact" class="nav-link text-light">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Ui/asset/login-ui/login.php" class="nav-link text-light">Login Here</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Ui/asset/signUp-ui/signUp.php" class="nav-link text-light">Sing Up Here</a>
                     </li>
                 </ul>
             </div>
-            <a href="#" class="navbar-brand text-primary border-top border-primary border-bottom rounded-3 p-2">Vue 3 +
-                Bootsrtap 5</a>
         </div>
     </nav>
-    <br><br>
-    <!--Nav Section End -->
+    <br><br> <br>
 
 
     <!-- Show Case Section Start -->
