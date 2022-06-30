@@ -4,12 +4,12 @@ require_once "../../../class/login.inc.php";
 ?>
 
 <div class="container-fluid col-md-6 mt-5">
+    <h1 class="text-center">Login Here</h1>
     <form class="row g-3 needs-validation p-2" novalidate method="POST">
         <!-- //Email Field -->
         <div class="col-md-12">
             <label for="validationCustomUsername" class="form-label">User Email</label>
             <div class="input-group has-validation">
-
                 <input type="text" class="form-control" id="validationCustomUsername"
                     aria-describedby="inputGroupPrepend" required placeholder="@gmail.com" name="email">
                 <div class="invalid-feedback">
@@ -29,6 +29,7 @@ require_once "../../../class/login.inc.php";
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me
                 out</label>
+            <a href="./../signUp-ui/signUp.php" class="float-end">new member signup here</a>
         </div>
         <button type="submit" class="btn btn-primary" name="btnLogin">Login</button>
     </form>

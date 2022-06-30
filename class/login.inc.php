@@ -4,11 +4,7 @@ include "loginController.class.php";
 
     // Get The Data Form The Input
     $email = $_POST['email'];
-    $password = $_POST['password'];
-   
-
-    
-    
+    $password = $_POST['password'];  
     $obj = new LoginController( $email, $password);
     $obj->loginUser();
     if($obj){

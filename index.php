@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Php Login Oop</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
@@ -166,11 +166,56 @@
     </section>
     <!-- Box Section End -->
 
+    <!-- Learn Base Section Start -->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./Ui/image/fundamentals.svg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn The Fundamentals</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti
+                        possimus magnam corporis ratione facere!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque reiciendis
+                        eius autem eveniet mollitia, at asperiores suscipit quae similique laboriosam
+                        iste minus placeat odit velit quos, nulla architecto amet voluptates?
+                    </p>
+                    <div class="accordion accordion-flush">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#readMore-One">
+                                    Read More
+                                </button>
+                            </h2>
+                            <div id="readMore-One" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae
+                                    fuga animi distinctio perspiciatis adipisci velit maiores totam tempora
+                                    accusamus modi explicabo accusantium consequatur, praesentium rem
+                                    quisquam molestias at quos vero. Officiis ad velit doloremque at.
+                                    Dignissimos praesentium necessitatibus natus corrupti cum consequatur
+                                    aliquam! Minima molestias iure quam distinctio velit.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Learn Base Section End -->
+
     <!-- javascript -->
     <script src="UI/asset/main-ui/app.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
 </script>
 
 </html>

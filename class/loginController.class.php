@@ -2,10 +2,8 @@
 include "login.class.php";
 
 class LoginController extends Login{
-    
     private $email,
-            $password;
-           
+            $password;     
     public function __construct($email,$password,)
     {
         $this->email =$email;
@@ -16,7 +14,6 @@ class LoginController extends Login{
         if($this->checkUser()==false){
             //echo "User Name Or Password Already Taken
             echo '<div class="alert alert-danger"> Failed....User Not Found </div>';
-          
             exit();
         }
     }
