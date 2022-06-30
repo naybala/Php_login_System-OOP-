@@ -1,31 +1,13 @@
-// classList - shows/gets all classes
-// contains - checks classList for specific class
-// add - add class
-// remove - remove class
-// toggle - toggles class
-let themeToggler = document.querySelector('.theme-toggler');
+const nav = document.querySelector(".navbar-nav")
+const navActive = document.querySelectorAll('.nav-link');
 
-themeToggler.onclick = () => {
-
-  themeToggler.classList.toggle('active');
-
-  if (themeToggler.classList.contains('active')) {
-    document.body.classList.add('active');
-    document.img.classList.add('active');
-  } else {
-    document.body.classList.remove('active');
-  }
-
-}
-
-
-
-
-
-const navToggle = document.querySelector(".nav-toggle");
-const links = document.querySelector(".links");
-
-navToggle.addEventListener("click", function () {
-
-  links.classList.toggle("show-links");
+nav.addEventListener("click",(e)=>{
+    const id = e.target.dataset.id;
+   if(id){
+    navActive.forEach(function (a) {
+        a.classList.remove("active");
+      });
+      e.target.classList.add("active");
+   }
+   
 });

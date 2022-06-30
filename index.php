@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
     <!-- styles -->
-    <link rel="stylesheet" href="./Ui/asset/main-ui/styles.css" />
-    <style>
+    <link rel="stylesheet" href="./Ui//asset/main-ui/styles.css" />
 
-    </style>
 </head>
 
 <body id="home">
@@ -29,20 +27,20 @@
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item ">
-                        <a href="#home" class="nav-link text-light">Home</a>
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" data-id="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link text-light">About Us</a>
+                        <a href="#about" class="nav-link" data-id="about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link text-light">Contact Us</a>
+                        <a href="#contact" class="nav-link" data-id="contact">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./Ui/asset/login-ui/login.php" class="nav-link text-light">Login Here</a>
+                        <a href="./Ui/asset/login-ui/login.php" class="nav-link">Login Here</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./Ui/asset/signUp-ui/signUp.php" class="nav-link text-light">Sing Up Here</a>
+                        <a href="./Ui/asset/signUp-ui/signUp.php" class="nav-link">Sing Up Here</a>
                     </li>
                 </ul>
             </div>
@@ -186,7 +184,7 @@
     <!-- Learn Base Section End -->
 
     <!-- javascript -->
-    <script src="UI/asset/main-ui/app.js"></script>
+    <script src="./Ui/asset/main-ui/app.js"></script>
 </body>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
