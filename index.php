@@ -19,60 +19,32 @@
     </style>
 </head>
 
-<body>
+<body id="home">
     <!--Nav Section Start -->
-    <nav>
-        <div class="nav-center">
-            <!-- nav header -->
-            <div class="nav-header">
-                <img src="Ui/image/nike-logo.png" class="logo" alt="logo" />
-                <button class="nav-toggle">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-            <!-- links -->
-            <ul class="links">
-                <li>
-                    <a href="#">home</a>
-                </li>
-                <li>
-                    <a href="#">about</a>
-                </li>
-                <li>
-                    <a href="Ui/asset/login-ui/login.php">Login</a>
-                </li>
-                <li>
-                    <a href="Ui/asset/signUp-ui/signUp.php">Sign-Up</a>
-                </li>
-            </ul>
-            <!-- social media -->
-            <ul class=" social-icons">
-                <li class="">
-                    <a href="#">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="#">
-                        <i class="fab fa-behance"></i>
-                    </a>
-                </li>
-                <li class="">
-                    <div class="theme-toggler">
-                        <span>light</span>
-                        <span class="toggler"></span>
-                        <span>dark</span>
-                    </div>
-                </li>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            </ul>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="navbar-brand text-primary border-top border-primary border-bottom rounded-3 p-2">Vue 3 +
+                Bootsrtap 5</a>
         </div>
     </nav>
+    <br><br>
     <!--Nav Section End -->
 
 
@@ -113,7 +85,7 @@
 
 
     <!-- Box Section Start -->
-    <section class="p-5">
+    <section class="p-5" id="about">
         <div class="container">
             <div class="row text-center g-4">
                 <div class="col-md">
