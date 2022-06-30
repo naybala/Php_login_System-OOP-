@@ -32,6 +32,8 @@ require_once "../../../class/login.inc.php";
             <a href="./../signUp-ui/signUp.php" class="float-end">new member signup here</a>
         </div>
         <button type="submit" class="btn btn-primary" name="btnLogin">Login</button>
+        <a href="../../../index.php" class="text-center mt-5"><button type="button" class="btn btn-primary">Back To Main
+                Page</button></a>
     </form>
 </div>
 <script src="../signUp-ui/app.js"></script>

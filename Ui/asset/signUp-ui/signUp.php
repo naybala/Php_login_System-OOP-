@@ -5,6 +5,7 @@ require_once "../../../class/signUp.inc.php";
 
 ?>
 <div class="container-fluid col-md-6 mt-5">
+    <h1 class="text-center">Sing Up Here</h1>
     <form class="row g-3 needs-validation p-2" novalidate method="post">
         <!-- //First Name Field -->
         <div class="col-md-6">
@@ -66,10 +67,13 @@ require_once "../../../class/signUp.inc.php";
                 <div class="invalid-feedback">
                     You must agree before submitting.
                 </div>
+                <a href="./../login-ui/login.php" class="float-end">Already Have an account Login Here</a>
             </div>
         </div>
         <!-- //Submit Btn Field -->
         <button class="btn btn-primary" type="submit" name="btnSignUp">Sign Up</button>
+        <a href="../../../index.php" class="text-center mt-5"><button type="button" class="btn btn-primary">Back To Main
+                Page</button></a>
     </form>
 </div>
 <script src="app.js"></script>
