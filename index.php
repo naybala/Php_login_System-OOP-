@@ -11,7 +11,6 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-
     <!-- styles -->
     <link rel="stylesheet" href="Ui/asset/main-ui/styles.css" />
     <style>
@@ -34,7 +33,6 @@
 </head>
 
 <body id="home">
-
     <!--Nav Section Start -->
     <nav class="navbar navbar-expand-lg py-2 fixed-top bg-dark ">
         <div class="container">
@@ -64,9 +62,7 @@
             </div>
         </div>
     </nav>
-
     <!--Nav Section End -->
-
 
     <!-- Show Case Section Start -->
     <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="home">
@@ -100,9 +96,6 @@
         <br><br><br><br><br>
     </section>
     <!-- Show Case Section End -->
-
-
-
 
     <!-- Box Section Start -->
     <section class="p-5" id="about">
@@ -422,8 +415,6 @@
 
     <script src="Ui/asset//main-ui/app.js"></script>
 </body>
-<!-- javascript -->
-
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
